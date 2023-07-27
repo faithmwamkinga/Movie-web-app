@@ -1,0 +1,85 @@
+styles.css
+
+
+  
+  .movie-slide {
+    outline: none; /* Removes the outline when a slide is focused */
+  }
+  
+
+  
+  /* For background image format */
+  .image-container-background {
+    width: 100%;
+    height: 700px; /* Set the desired height of each slide */
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    color: orange; /* Optional: Set text color for movie details */
+    padding: 20px; /* Optional: Add padding for movie details */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .image-container-background h2 {
+    margin: 0;
+    font-size: 50px; /* Optional: Set font size for movie title */
+  }
+  
+  .image-container-background p {
+    margin: 0;
+    font-size: 20px; /* Optional: Set font size for movie details */
+  }
+  .movies-slider {
+    max-width: fit-content; /* Adjust the width according to your preference */
+    margin: 0 auto;
+    max-height: fit-content;
+  }
+  
+  .movie-slide {
+    display: flex; /* Display the slide content in a flex container */
+    align-items: center; /* Vertically center the content */
+    padding: 0px;
+  }
+  
+  
+  /* Style the carousel dots */
+.carousel .carousel .control-dots .dots {
+  background-color: rgb(125, 83, 6); /* Set the dot background color to orange */
+  width: 16px; /* Adjust the width of the dot */
+  height: 12px; /* Adjust the height of the dot */
+  margin: 5px; /* Adjust the margin around the dots */
+  border-radius: 50%; /* Make the dots circular */
+}
+
+  
+/* Add a container around the carousel to fill the screen width */
+.movies-slider-container {
+  width: 100%;
+}
+
+
+
+/* Style the carousel slides */
+.movie-slide {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Style the carousel images */
+.background-image {
+  flex: 1;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Style the carousel text */
+.movie-details {
+  flex: 1;
+  padding: 10px;
+  text-align: left;
+  font-size: 18px;
+}
